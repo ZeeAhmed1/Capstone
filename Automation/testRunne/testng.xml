@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite" thread-count="3">
+  <test name="TestOnChrome">
+  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="capstone.One"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <!--<test name="TestOnEdge">
+  <parameter name="browserName" value="edge"></parameter>
+    <classes>
+      <class name="Assessment.Question2"/>
+    </classes>
+  </test> -->
+  
+<!--<test name="TestOnFirefox">
+  <parameter name="browserName" value="firefox"></parameter>
+    <classes>
+      <class name="Assessment.Question2"/>
+    </classes>
+  </test>-->
+</suite> <!-- Suite -->
